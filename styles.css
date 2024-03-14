@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between logo and nav items */
+}
+
+.logo {
+    height: 40px; /* Adjust the height of the logo as needed */
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    height: 100vh; /* Make each section occupy the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; /* Center the content horizontally */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.section-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+#home {
+    background-color: #3498db; /* Blue */
+}
+
+#about {
+    background-color: #2ecc71; /* Green */
+}
+
+#history {
+    background-color: #e74c3c; /* Red */
+}
+
+#circle {
+    background-color: #f39c12; /* Orange */
+}
+
+#customers {
+    background-color: #34495e; /* Dark blue */
+    color: #fff; /* White text */
+    overflow: auto; /* Enable scrolling */
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.customer img {
+    width: 200px; /* Adjust image size */
+    margin-right: 20px;
+}
+
+.customer-info {
+    max-width: 400px; /* Limit width of text box */
+    text-align: left;
+}
+
+#contact {
+    background-color: #9b59b6; /* Purple */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
